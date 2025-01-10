@@ -125,14 +125,9 @@ export function Download() {
 								<MakerWorldIcon className="h-5 fill-current" />
 							</span>
 
-							<span className="absolute z-10 mt-12 w-fit rotate-6 rounded-lg border-2 border-yellow-400 bg-yellow-200 px-3 py-1 text-yellow-950 md:col-span-2">
-								Exclusive MakerWorld until February 1st
-							</span>
-
 							<Link
-								href="#"
-								//className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
-								className="inline-flex cursor-not-allowed justify-center rounded-md bg-stone-500 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm"
+								href="https://thangs.com/designer/jpvalery/3d-model/1242381"
+								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on Thangs
 							</Link>
@@ -141,9 +136,8 @@ export function Download() {
 							</span>
 
 							<Link
-								href="#"
-								//className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
-								className="inline-flex cursor-not-allowed justify-center rounded-md bg-stone-500 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm"
+								href="https://www.printables.com/model/1142998-konchu-resura-be-the-last-bug-standing"
+								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on Printables
 							</Link>
