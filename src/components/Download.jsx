@@ -116,7 +116,7 @@ export function Download() {
 						</p>
 						<div className="grid w-max auto-cols-min grid-cols-1 items-center justify-evenly gap-x-2 gap-y-4 md:grid-cols-2">
 							<Link
-								href="#"
+								href="https://makerworld.com/en/models/976691#profileId-949677"
 								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on MakerWorld
