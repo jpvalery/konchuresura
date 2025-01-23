@@ -109,7 +109,7 @@ const testimonials = [
 
 function Testimonial({ author, children }) {
 	return (
-		<figure className="rounded-4xl p-8 shadow-md ring-1 ring-stone-900/5">
+		<figure className="rounded-4xl p-8 ring-1 shadow-md ring-stone-900/5">
 			<blockquote>
 				<p className="text-lg tracking-tight text-stone-900 before:content-['“'] after:content-['”']">
 					{children}
@@ -126,7 +126,7 @@ function Testimonial({ author, children }) {
 					/>
 				</div>
 				<div className="ml-4">
-					<div className="text-base font-medium leading-6 tracking-tight text-stone-900">
+					<div className="text-base leading-6 font-medium tracking-tight text-stone-900">
 						{author.name}
 					</div>
 					<div className="mt-1 text-sm text-stone-600">{author.role}</div>
@@ -166,7 +166,7 @@ export function Testimonials() {
 					{testimonials.map((column, columnIndex) => (
 						<li
 							key={columnIndex}
-							className="hidden group-data-[expanded]:list-item lg:list-item"
+							className="hidden group-data-expanded:list-item lg:list-item"
 						>
 							<ul role="list">
 								<ExpandableItems>

@@ -83,7 +83,7 @@ export function Setup() {
 										'linear-gradient(to top, #c79081 0%, #dfa579 100%)',
 								}}
 							>
-								<div className="flex h-60 rounded">
+								<div className="flex h-60 rounded-sm">
 									<Image src={step.image} alt="" unoptimized />
 								</div>
 							</div>

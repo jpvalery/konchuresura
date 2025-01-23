@@ -19,7 +19,7 @@ export function Testimonial({ id, author, children }) {
 					<div className="flex text-stone-900 sm:justify-center">
 						<StarRating />
 					</div>
-					<blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-stone-900 sm:text-center">
+					<blockquote className="font-display mt-10 text-4xl font-medium tracking-tight text-stone-900 sm:text-center">
 						{children}
 					</blockquote>
 					<figcaption className="mt-10 flex items-center sm:justify-center">
@@ -33,7 +33,7 @@ export function Testimonial({ id, author, children }) {
 							/>
 						</div>
 						<div className="ml-4">
-							<div className="text-base font-medium leading-6 tracking-tight text-stone-900">
+							<div className="text-base leading-6 font-medium tracking-tight text-stone-900">
 								{author.name}
 							</div>
 							<div className="mt-1 text-sm text-stone-600">{author.role}</div>

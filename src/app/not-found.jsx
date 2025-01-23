@@ -5,12 +5,12 @@ import { Container } from '@/components/Container';
 export default function NotFound() {
 	return (
 		<div className="relative flex flex-auto items-center">
-			<div className="absolute -bottom-12 -top-20 left-0 right-1/2 z-10 rounded-br-6xl bg-hero-pattern md:bottom-8 lg:-inset-y-32 lg:left-[-100vw] lg:right-full lg:-mr-72"></div>
+			<div className="rounded-br-6xl bg-hero-pattern absolute -top-20 right-1/2 -bottom-12 left-0 z-10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-72"></div>
 			<Container className="flex flex-col items-center py-16 text-center sm:py-20 lg:py-32">
-				<p className="rounded-full px-4 py-1 text-base font-medium tracking-tight text-stone-900 ring-1 ring-inset ring-stone-900">
+				<p className="rounded-full px-4 py-1 text-base font-medium tracking-tight text-stone-900 ring-1 ring-stone-900 ring-inset">
 					404
 				</p>
-				<h1 className="mt-6 font-display text-5xl font-extrabold text-stone-900 sm:text-6xl">
+				<h1 className="font-display mt-6 text-5xl font-extrabold text-stone-900 sm:text-6xl">
 					Page not found
 				</h1>
 				<p className="mt-4 text-lg tracking-tight text-stone-700">
