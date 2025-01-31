@@ -127,7 +127,7 @@ export function Download() {
 
 							<Link
 								href="https://thangs.com/designer/jpvalery/3d-model/1242381"
-							  className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
+								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on Thangs
 							</Link>
