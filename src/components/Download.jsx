@@ -88,18 +88,18 @@ export function Download() {
 		<section
 			id="download"
 			aria-labelledby="download-title"
-			className="scroll-mt-14 bg-emerald-800 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
+			className="scroll-mt-14 bg-emerald-800 pt-16 pb-8 sm:scroll-mt-32 sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16"
 		>
 			<Container>
 				<SectionHeading number="4" id="download-title" dark>
 					Download
 				</SectionHeading>
-				<p className="mt-8 text-balance font-display text-5xl font-extrabold tracking-tight text-stone-50 sm:text-6xl">
+				<p className="font-display mt-8 text-5xl font-extrabold tracking-tight text-balance text-stone-50 sm:text-6xl">
 					Free to download, print, and play
 				</p>
 			</Container>
 			<div className="mx-auto mt-16 max-w-5xl lg:px-6">
-				<div className="grid items-center gap-8 bg-stone-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-12">
+				<div className="md:rounded-6xl grid items-center gap-8 bg-stone-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:px-8 md:pt-16 lg:p-12">
 					<Image
 						src={overviewImage}
 						alt="Overview of the whole print"
@@ -117,7 +117,7 @@ export function Download() {
 						<div className="grid w-max auto-cols-min grid-cols-1 items-center justify-evenly gap-x-2 gap-y-4 md:grid-cols-2">
 							<Link
 								href="https://makerworld.com/en/models/976691#profileId-949677"
-								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
+								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on MakerWorld
 							</Link>
@@ -127,7 +127,7 @@ export function Download() {
 
 							<Link
 								href="https://thangs.com/designer/jpvalery/3d-model/1242381"
-								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
+							  className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on Thangs
 							</Link>
@@ -137,7 +137,7 @@ export function Download() {
 
 							<Link
 								href="https://www.printables.com/model/1142998-konchu-resura-be-the-last-bug-standing"
-								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
+								className="inline-flex justify-center rounded-md bg-emerald-800 px-4 py-1 text-base font-semibold tracking-tight text-white shadow-sm hover:bg-emerald-500 focus:outline-hidden focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 active:bg-emerald-700 active:text-white/80"
 							>
 								Download now on Printables
 							</Link>

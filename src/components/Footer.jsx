@@ -2,7 +2,7 @@ const currentYear = new Date().getFullYear();
 
 export function Footer() {
 	return (
-		<footer className="relative pb-20 pt-5 sm:pb-32 sm:pt-14">
+		<footer className="relative pt-5 pb-20 sm:pt-14 sm:pb-32">
 			<div className="relative text-center text-sm text-stone-600">
 				<p>© {currentYear} All rights reserved.</p>
 				<p>

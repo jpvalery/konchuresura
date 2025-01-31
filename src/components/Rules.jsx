@@ -16,7 +16,7 @@ const rules = [
 		tip: 'You can push in any direction—get creative with your angles for more strategic options!',
 		image: function pushImg() {
 			return (
-				<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-l from-red-400 to-orange-500">
+				<div className="absolute inset-0 flex items-center justify-center bg-linear-to-l from-red-400 to-orange-500">
 					<Image src={pushImage} alt="" unoptimized />
 				</div>
 			);
@@ -25,11 +25,11 @@ const rules = [
 	{
 		title: 'Collect new ones',
 		description:
-			'Collect any standard tokens that fall out of the ring due to your push - they go into your inventory',
+			'Collect any standard tokens that fall out of the ring-3 due to your push - they go into your inventory',
 		tip: 'If pieces accidentally fall out (not from a push), return them to the supply.',
 		image: function fallImg() {
 			return (
-				<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-orange-300 to-rose-300">
+				<div className="absolute inset-0 flex items-center justify-center bg-linear-to-r from-orange-300 to-rose-300">
 					<Image src={fallImage} alt="" unoptimized />
 				</div>
 			);
@@ -41,7 +41,7 @@ const rules = [
 			"Go on the offense or play defensively—but make sure you're the last one standing on the board.",
 		image: function winImg() {
 			return (
-				<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-rose-700 to-pink-600">
+				<div className="absolute inset-0 flex items-center justify-center bg-linear-to-r from-rose-700 to-pink-600">
 					<Image src={winImage} alt="" unoptimized />
 				</div>
 			);
@@ -53,13 +53,13 @@ const victoryConditions = [
 	{
 		title: 'Victory by Knockout',
 		description: [
-			`First player/team to push an opponent's fighter out of the ring wins instantly`,
+			`First player/team to push an opponent's fighter out of the ring-3 wins instantly`,
 			`If you knock out your own fighter (even while knocking out others), you lose`,
 			`In a three-player game, knocking out any opponent ends the game immediately`,
 		],
 		image: function VictoryImageBG() {
 			return (
-				<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-amber-200 to-yellow-400">
+				<div className="absolute inset-0 flex items-center justify-center bg-linear-to-r from-amber-200 to-yellow-400">
 					<Image src={koIcon} alt="" unoptimized className="h-32" />
 				</div>
 			);
@@ -73,7 +73,7 @@ const victoryConditions = [
 		],
 		image: function FigmaImage() {
 			return (
-				<div className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-orange-600 to-orange-500">
+				<div className="absolute inset-0 flex items-center justify-center bg-linear-to-r from-orange-600 to-orange-500">
 					<Image src={emptyIcon} alt="" unoptimized className="h-32" />
 				</div>
 			);
@@ -98,7 +98,7 @@ export function Rules() {
 				</p>
 			</Container>
 			<Container size="lg">
-				<p className="py-8 text-center font-display text-4xl font-bold tracking-tight text-stone-900">
+				<p className="font-display py-8 text-center text-4xl font-bold tracking-tight text-stone-900">
 					On your turn
 				</p>
 				<ol
@@ -129,7 +129,7 @@ export function Rules() {
 				</ol>
 			</Container>
 			<Container size="lg" className="mt-16">
-				<p className="py-8 text-center font-display text-4xl font-bold tracking-tight text-stone-900">
+				<p className="font-display py-8 text-center text-4xl font-bold tracking-tight text-stone-900">
 					Victory Conditions
 				</p>
 

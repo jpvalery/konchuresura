@@ -13,8 +13,8 @@ export function SectionHeading({
 				className,
 				'inline-flex items-center rounded-full px-5 py-2',
 				dark
-					? 'text-emerald-50 ring-1 ring-inset ring-emerald-50'
-					: 'text-emerald-800 ring-1 ring-inset ring-emerald-800',
+					? 'text-emerald-50 ring-1 ring-emerald-50 ring-inset'
+					: 'text-emerald-800 ring-1 ring-emerald-800 ring-inset',
 			)}
 			{...props}
 		>

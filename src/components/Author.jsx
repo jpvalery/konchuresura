@@ -94,10 +94,10 @@ export function Author() {
 		<section
 			id="author"
 			aria-labelledby="author-title"
-			className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
+			className="relative scroll-mt-14 pt-8 pb-3 sm:scroll-mt-32 sm:pt-10 sm:pb-16 lg:pt-16"
 		>
 			<div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
-				<div className="bg-stone-50 pt-px sm:rounded-6xl">
+				<div className="sm:rounded-6xl bg-stone-50 pt-px">
 					<div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-stone-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
 						<Image
 							className="absolute inset-0 h-full w-full object-cover"
