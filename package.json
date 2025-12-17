@@ -15,7 +15,7 @@
     "OrbitControls": "link:three/examples/jsm/controls/OrbitControls",
     "STLLoader": "link:three/examples/js/loaders/STLLoader",
     "clsx": "^2.1.1",
-    "next": "15.1.4",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-stl-viewer": "^2.5.0",
